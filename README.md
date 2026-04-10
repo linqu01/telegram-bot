@@ -72,6 +72,7 @@
 
 ```text
 https://api.telegram.org/bot<YOUR_TOKEN>/setWebhook?url=<YOUR_WORKER_URL>
+```
 
 示例：`https://api.telegram.org/bot123456:ABCDEF/setWebhook?url=https://你的worker.workers.dev`
 
