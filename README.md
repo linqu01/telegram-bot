@@ -63,7 +63,7 @@ v1.0 版本专注于**极致性能**与**长期稳定性**。
 
 ---
 
-### 方法一：GitHub 一键连接部署（推荐）
+### 部署流程
 
 1. Fork 本仓库到你的 GitHub 账号。
 2. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/) → **Workers & Pages** → **Create Application** → **Connect to Git**。
