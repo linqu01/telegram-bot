@@ -13,10 +13,10 @@
 
 ## 📑 目录
 
-* [🚀 核心功能](#-核心特性)
-* [🛠️ 管理员指令](#-管理员指令)
-* [❤️ 部署教程](#-部署教程)
-* [❓ 常见问题 (FAQ)](#-常见问题-faq)
+* [🚀 核心特性](#核心特性)
+* [🛠️ 管理员指令](#管理员指令)
+* [❤️ 部署教程](#部署教程)
+* [❓ 常见问题 FAQ](#常见问题-faq)
 
 ---
 
@@ -54,13 +54,9 @@
 
 ### 前置准备
 1. **创建 Telegram Bot**：通过 [@BotFather](https://t.me/BotFather) 获取 `BOT_TOKEN`，并在 BotFather 设置中**关闭 Group Privacy**。
-
 2. **准备管理员群组**：创建一个开启 **Topics** 功能的群组，将机器人拉入并设为管理员（授予 “Manage Topics” 权限）。获取群组 ID（必须以 `-100` 开头）。
 
----
-
 ### 部署流程
-
 1. Fork 本仓库到你的 GitHub 账号。
 2. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/) → **Workers & Pages** → **Create Application** → **Connect to Git**。
 3. 选择你 Fork 的仓库，配置项目名称和分支，点击 **Save and Deploy**。
@@ -70,11 +66,11 @@
    - 添加环境变量：`BOT_TOKEN` 和 `SUPERGROUP_ID`。
 5. 部署完成后点击 **Retry deployment** 使配置生效。
 
----
-
 ### 最后一步：激活 Webhook（至关重要）
 
 在浏览器中访问以下链接（替换对应内容）：
+
+```text
 https://api.telegram.org/bot<YOUR_TOKEN>/setWebhook?url=<YOUR_WORKER_URL>
 
 示例：`https://api.telegram.org/bot123456:ABCDEF/setWebhook?url=https://你的worker.workers.dev`
