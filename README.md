@@ -13,28 +13,23 @@
 
 ## 📑 目录
 
-* [✨ 核心特性](#-核心特性)
+* [🚀 核心功能](#-核心特性)
 * [🛠️ 管理员指令](#-管理员指令)
-* [🚀 部署教程](#-部署教程)
-    * [GitHub 一键连接部署](#github-一键连接部署)
+* [❤️ 部署教程](#-部署教程)
 * [❓ 常见问题 (FAQ)](#-常见问题-faq)
-* [📈 Star History](#-star-history)
 
 ---
 
-## ✨ 核心特性
+## 🚀 核心特性
 
-v1.0 版本专注于**极致性能**与**长期稳定性**。
+本版本专注于**极致性能**与**长期稳定性**。
 
 | 特性 | 描述 |
 | :--- | :--- |
 | **⚡ 0 延迟验证** | 采用**本地精选常识题库**，秒开秒验，验证成功率 100%，彻底告别网络接口问题。 |
-| **🛡️ 智能防骚扰** | 30 天免打扰期 + 短 ID 验证机制，杜绝按钮失效与并发绕过漏洞。 |
+| **🛡️ 智能本地防骚扰** | 30 天免打扰期 + 短 ID 验证机制，杜绝按钮失效与并发绕过漏洞。 |
 | **💬 独立话题管理** | 自动为每位用户创建独立 Forum Topic，消息完全隔离，管理清晰高效。 |
-| **👮 隐形指令系统** | 自动拦截私聊中的 `/` 指令，仅在管理员群组话题内生效，杜绝骚扰。 |
-| **🔒 强大管理指令** | 支持 `/close`、`/open`、`/ban`、`/unban`、`/trust`、`/reset`、`/info`、`/cleanup` 等完整指令集。 |
-| **☁️ Serverless 架构** | 纯 Cloudflare Workers 运行，0 成本、无服务器、无需运维、抗高并发。 |
-| **📸 多媒体完美支持** | 文本、图片、视频、文档、动图等全格式双向转发，不丢失任何信息。 |
+| **🔒 管理指令强大** | 支持 `/close`、`/open`、`/ban`、`/unban`、`/trust`、`/reset`、`/info`、`/cleanup` 等完整指令集。 |
 
 ---
 
@@ -55,10 +50,11 @@ v1.0 版本专注于**极致性能**与**长期稳定性**。
 
 ---
 
-## 🚀 部署教程
+## ❤️ 部署教程
 
 ### 前置准备
 1. **创建 Telegram Bot**：通过 [@BotFather](https://t.me/BotFather) 获取 `BOT_TOKEN`，并在 BotFather 设置中**关闭 Group Privacy**。
+
 2. **准备管理员群组**：创建一个开启 **Topics** 功能的群组，将机器人拉入并设为管理员（授予 “Manage Topics” 权限）。获取群组 ID（必须以 `-100` 开头）。
 
 ---
@@ -109,14 +105,7 @@ A: 优先使用默认的 `*.workers.dev` 域名测试，排除自定义域名解
 > 请妥善保管 `BOT_TOKEN`，切勿泄露。该 Token 拥有机器人全部操作权限。
 
 ---
-
-## 📈 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=linqu01/telegram-bot&type=date&legend=top-left)](https://www.star-history.com/#linqu01/telegram-bot&type=date&legend=top-left)
-
----
-
 **如果这个项目对你有帮助，请Star ⭐️ 支持**
 
-**Copyright © 2025 linqu01（林渠）**  
+**Copyright © 2026 linqu01（林渠）**  
 
